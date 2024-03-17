@@ -1,0 +1,33 @@
+body {
+    min-height: 100vh;
+}
+
+/* Override bootstrap column paddings */
+
+
+.tz-gallery .lightbox img {
+    width: 100%;
+    border-radius: 0;
+    position: relative;
+}
+
+
+
+.tz-gallery .lightbox:after {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    background-color: rgba(46, 132, 206, 0.7);
+    content: '';
+    transition: 0.4s;
+}
+
+
+.baguetteBox-button {
+    background-color: transparent !important;
+    color: white;
+}
+
